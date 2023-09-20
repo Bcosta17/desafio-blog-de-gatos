@@ -97,6 +97,16 @@ h1, h2 {
   width: 1.6rem;
 }
 
+.rating div {
+  cursor: pointer;
+
+  animation: transform .5s;
+}
+
+.rating div:hover {
+  transform: scale(1.2);
+}
+
 .wrapper p {
   font-size: 1.6rem;
   font-weight: 400;
